@@ -33,7 +33,7 @@ Something that i should note is that not all gestures are stored in register 0, 
     data = sensor.read(0x43); //Reads the sensors readings from the register 0
 ```
 The sensors readings are stored in 'data' in the example, data will have a different value depending on what gesture was detected the values are shown below:
-```
+```c
     //These flags are stored in the first register
     DOWN_FLAG          = 0x01,
     UP_FLAG            = 0x02,
