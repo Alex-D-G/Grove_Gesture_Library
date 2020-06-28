@@ -55,7 +55,7 @@ These flags can also be used while coding for ease of use.
     }
 ```
 
-##Limited readings
+## Limited readings
 
 Say you only want to read left and right gestures, well I got you covered.
 Instead of creating sensor like shown above you can also create it like this:
