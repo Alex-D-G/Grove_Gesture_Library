@@ -37,7 +37,7 @@ The sensors readings are stored in 'data' in the example, data will have a diffe
     //These flags are stored in the first register
     DOWN_FLAG          = 0x01,
     UP_FLAG            = 0x02,
-	RIGHT_FLAG         = 0x04,
+    RIGHT_FLAG         = 0x04,
     LEFT_FLAG          = 0x08,
     CLOSE_FLAG         = 0x10,
     FURTHER_FLAG       = 0x20,
