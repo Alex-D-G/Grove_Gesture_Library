@@ -1,5 +1,5 @@
 # Grove Gesture Library
-This library is designed for use of the Grove Gesture without the use of Seeed shield or a Seeeduino.
+This library is designed for use of the Grove Gesture without the need for a Seeed shield or a Seeeduino.
 
 ## How to start
 
