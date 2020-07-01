@@ -60,7 +60,7 @@ These flags can also be used while coding for ease of use.
 Say you only want to read left and right gestures, well I got you covered.
 Instead of creating sensor like shown above you can also create it like this:
 ```c
-    uint8_t readable[9] = {RIGHT_FLAG, LEFT_FLAG};
+    uint8_t readable[9] = {RIGHT_FLAG, LEFT_FLAG}; //Flags you want to read
     auto sensor = limited_paj7620(i2c_bus, 0x73, readable);
 ```
 In this example the sensor will only be able to read left and right + any other flags you decide to put into readable and if you decide that you dont want to read anything you can also leave readable blank.
